@@ -1,0 +1,84 @@
+/* Container utama */
+h3 {
+    margin-top: 20px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Tabel */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Gambar */
+td img {
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+/* Tombol aksi */
+button {
+    padding: 6px 12px;
+    margin: 2px;
+    font-size: 13px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Tombol spesifik */
+button[onclick*="edit_isi"] {
+    background-color: #007bff;
+    color: white;
+}
+
+button[onclick*="edit_isi"]:hover {
+    background-color: #0056b3;
+}
+
+button[onclick*="hapus_isi"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+button[onclick*="hapus_isi"]:hover {
+    background-color: #a71d2a;
+}
+
+button[onclick*="tambah_isi"] {
+    background-color: #28a745;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+button[onclick*="tambah_isi"]:hover {
+    background-color: #1e7e34;
+}
+
+/* Responsive table */

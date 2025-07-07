@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+
+/* Headings */
+h3 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    font-weight: normal;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 6px;
+}
+
+/* Form Styles */
+form {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+label, input, select {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fdfdfd;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 11px;
+    resize: vertical;
+}
+
+/* Buttons */
+button,
+input[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #1f6391;
+}
+
+button:active,
+input[type="submit"]:active {
+    transform: scale(0.97);
+}
+
+/* Error and Success Message */
+p[style*="color:red"] {
+    color: #e74c3c !important;
+    font-weight: bold;
+}
+
+p[style*="color:green"] {
+    color: #27ae60 !important;
+    font-weight: bold;
+}
+
+/* Tambah kolom dinamis */
+.kolom {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #ecf0f1;
+    border-radius: 5px;
+}
+
+/* Container spacing for iframe mode */
+#kontenTabel {
+    margin-top: 20px;
+}
